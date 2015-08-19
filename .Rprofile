@@ -1,3 +1,7 @@
+## best used with
+##   alias R='R -q --no-save'
+## in your .profile
+
 .Last <- function() {
     curtime <- Sys.time();
     seshlen <- floor(as.numeric(curtime-.Start.SysTime));
